@@ -33,6 +33,7 @@
 		D6A40A9F1D310CB000B895B2 /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D6A40A9E1D310CB000B895B2 /* libbz2.tbd */; };
 		D6A40AA11D310CB800B895B2 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D6A40AA01D310CB800B895B2 /* libz.tbd */; };
 		D6A40AA51D31156800B895B2 /* JCVideoLiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6A40AA41D31156800B895B2 /* JCVideoLiveViewController.m */; };
+		D6A40AAA1D31333C00B895B2 /* IJKMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6A40AA91D31333C00B895B2 /* IJKMediaFramework.framework */; };
 		D6F3C5331D2FFA6400BC7993 /* NSObject+JC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F3C5321D2FFA6400BC7993 /* NSObject+JC.swift */; };
 		D6F3C5351D2FFB2B00BC7993 /* UIImageView+JC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F3C5341D2FFB2B00BC7993 /* UIImageView+JC.swift */; };
 		D6F3C5381D2FFF6200BC7993 /* JCHttpTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F3C5371D2FFF6200BC7993 /* JCHttpTool.swift */; };
@@ -71,6 +72,7 @@
 		D6A40AA01D310CB800B895B2 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		D6A40AA31D31156800B895B2 /* JCVideoLiveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCVideoLiveViewController.h; sourceTree = "<group>"; };
 		D6A40AA41D31156800B895B2 /* JCVideoLiveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCVideoLiveViewController.m; sourceTree = "<group>"; };
+		D6A40AA91D31333C00B895B2 /* IJKMediaFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IJKMediaFramework.framework; sourceTree = "<group>"; };
 		D6F3C5321D2FFA6400BC7993 /* NSObject+JC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSObject+JC.swift"; sourceTree = "<group>"; };
 		D6F3C5341D2FFB2B00BC7993 /* UIImageView+JC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+JC.swift"; sourceTree = "<group>"; };
 		D6F3C5371D2FFF6200BC7993 /* JCHttpTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JCHttpTool.swift; sourceTree = "<group>"; };
@@ -95,6 +97,7 @@
 				D6A40A8B1D310C1200B895B2 /* AudioToolbox.framework in Frameworks */,
 				D6A40A891D310BF600B895B2 /* CoreVideo.framework in Frameworks */,
 				8BEB5D528A96A54B7058DC28 /* Pods_LiveVideoDemo.framework in Frameworks */,
+				D6A40AAA1D31333C00B895B2 /* IJKMediaFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,7 +154,7 @@
 				D640219A1D2F8EFE00A228FA /* TableViewSourceDelegate */,
 				D64021891D2F7C4700A228FA /* Other */,
 				D640218B1D2F7C4700A228FA /* Resoucrces */,
-				D6A40A851D310BA500B895B2 /* Framework */,
+				D6A40AA81D31333C00B895B2 /* Framework */,
 				D64021791D2F7B7F00A228FA /* Assets.xcassets */,
 			);
 			path = LiveVideoDemo;
@@ -246,9 +249,10 @@
 			path = TableViewSourceDelegate;
 			sourceTree = "<group>";
 		};
-		D6A40A851D310BA500B895B2 /* Framework */ = {
+		D6A40AA81D31333C00B895B2 /* Framework */ = {
 			isa = PBXGroup;
 			children = (
+				D6A40AA91D31333C00B895B2 /* IJKMediaFramework.framework */,
 			);
 			path = Framework;
 			sourceTree = "<group>";
